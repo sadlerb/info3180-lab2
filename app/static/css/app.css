@@ -1,3 +1,75 @@
 body {
     padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+
 }
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    
+}
+
+div #header{
+    background-color: cadetblue;
+    flex-grow: 1;
+}
+
+#header img{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    border-radius: 50%;
+}
+
+ul p{
+    list-style-type: none;
+    color: grey;
+}
+li{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ul{
+    align-self: center;
+    text-align: center;
+}
+
+button{
+    background-color: darkcyan;
+    color: white;
+    border-radius: 12%;
+    border-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+#button{
+    text-align: center;
+
+}
+#description{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: gray;
+}
+
+footer{
+    align-self: flex-end;
+
+}
+
+

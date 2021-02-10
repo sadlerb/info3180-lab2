@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ {% extends 'base.html' %} 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>INFO2180 Lab 2</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+    {% block main %}
+    <div id="header", class="container-flex">
+        <header>
+            <img id="profile_img" src="{{ url_for('static', filename='assets/profile.png') }}"/>
+            <h1>Brendon Sadler</h1>
+            <p>@sadlerb</p>
+            <p>Portmore, Jamaica</p>
+            <p>{{date_time}}</p>
+        </header>
+    </div>
+    <div class="container-grid">
+
+    <div id="main">
+        <main>
+            <div id='description'>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus quidem neque soluta accusamus voluptatibus tempore, atque reprehenderit, esse aut tenetur harum nemo quaerat exercitationem. Laudantium, placeat! Inventore, dolore tempora. Unde?
+            </div>
+            <div id='data'>
+                <ul>
+                    <li>10<p>Posts</p></li>
+                    <li>100<p>Following</p></li>
+                    <li>200<p>Followers</p></li>
+                    
+                </ul>
+            </div>
+            <div id='button'>
+                <button type="button">Follow</button>
+            </div>
+        </main>
+    </div>
+    </div>
+</main>
+</div>
+</body>
+
+{% endblock %} 
+</html>
